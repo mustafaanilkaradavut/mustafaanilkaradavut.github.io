@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background-image: url(https://images.hdqwalls.com/wallpapers/2020-money-heist-netflix-nk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  height: 100%;
+  border: 100%;
+  text-align: center;
+}
+
+h1 {
+  padding: 10px 0;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  display: block;
+}
+
+.textoption {
+  background: linear-gradient(180deg, yellow, white, rgb(209, 19, 19));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  padding: 5px 0;
+  text-align: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 400;
+  display: block;
+}
+
+form {
+  background-color: black;
+  color: whitesmoke;
+  width: fit-content;
+  margin: auto;
+  padding: 20px;
+  border: 20px;
+  display: block;
+  font-weight: bold;
+  text-align: left;
+}
+
+form:hover {
+  box-shadow: 100px;
+  background-color: rgb(20, 18, 18);
+}
+
+label {
+  display: flex;
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px;
+}
+
+input {
+  width: 100px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.inputs {
+  border-radius: 10px;
+  border: 1px solid(0, 0, 0, 0.3);
+  width: 400px;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.group1 input {
+  display: block;
+  width: 100px;
+  margin: 15px 0 0 0;
+  padding: 5px;
+  border-radius: 10px;
+  float: left;
+}
+
+.group2 input {
+  display: flex;
+  float: left;
+  margin: 15px 0 0 0;
+}
+
+.group3 {
+  display: inline-block;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button input {
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+}
+.button input:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+  color: brown;
+  font-size: medium;
+  font-weight: bold;
+  font-style: oblique;
+}
